@@ -16,21 +16,13 @@ header {
   display: flex;
   justify-content: space-around;
 }
-header h1 {
+header .tittle {
   color: #ffe652;
   font-family: cursive;
 }
-.search {
-  border: 2px solid #005086;
-  font-family: inherit;
-  font-size: 1.2rem;
-  border-radius: 50px;
-  background-color: transparent;
-  color: #005086;
-  padding: 0.5rem 1.5rem;
-  width: 30rem;
-  height: 3rem;
-  margin-top: 17px;
+header .my-favorite {
+  color: #c2fff9;
+  cursor: pointer;
 }
 .movie {
   position: relative;

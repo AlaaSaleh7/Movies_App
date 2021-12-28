@@ -16,8 +16,8 @@ function App() {
   return (
     <>
       <header>
-        <h1>MovieList</h1>
-        <input className="search" type="search" placeholder="search..."></input>
+        <h1 className="tittle">MovieList</h1>
+        <h1 className="my-favorite">MyFavorite</h1>
       </header>
       <div className="movie-container">
         {movies.length &&
