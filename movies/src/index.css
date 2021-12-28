@@ -51,6 +51,7 @@ header h1 {
 .movie-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .movie-ifo {
   display: flex;
@@ -62,7 +63,7 @@ header h1 {
   margin: 0;
 }
 .movie-ifo span {
-  color: #ffbd35;
+  color: #ffe652;
   font-weight: bold;
 }
 .movie-over {
